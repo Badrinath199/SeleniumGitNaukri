@@ -26,7 +26,7 @@ public class RunTest extends BaseClass {
 		{
 			HomePage homepage =lp.loginApplication(emailid, password);
 			ProfilePage profilepage=homepage.profilepic();
-			profilepage.resume("C:\\Users\\K Badrinath\\eclipse-workspace\\UpdateResume\\src\\test\\java\\utility\\Badri_Selenium_Resume.pdf");
+			profilepage.resume("F:\\Badri_Selenium_Resume.pdf");
 			
 		}
 

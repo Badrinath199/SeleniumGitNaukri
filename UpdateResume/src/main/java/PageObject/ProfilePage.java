@@ -43,8 +43,8 @@ public class ProfilePage extends AbstractComponent{
 		
 		public void resume(String path) throws InterruptedException
 		{
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			cvupdate.sendKeys(path);
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 		}
 }
